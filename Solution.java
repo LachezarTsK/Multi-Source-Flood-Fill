@@ -11,7 +11,6 @@ public class Solution {
     private static final int[] DOWN = {-1, 0};
     private static final int[] LEFT = {0, -1};
     private static final int[] RIGHT = {0, 1};
-
     private static final int[][] MOVES = {UP, DOWN, LEFT, RIGHT};
 
     private int rows;
