@@ -20,7 +20,6 @@ class Solution {
     inline static const array<int, 2> DOWN = { -1, 0 };
     inline static const array<int, 2> LEFT = { 0, -1 };
     inline static const array<int, 2> RIGHT = { 0, 1 };
-
     inline static const array<array<int, 2>, 4> MOVES = { UP, DOWN, LEFT, RIGHT };
 
     int rows;
