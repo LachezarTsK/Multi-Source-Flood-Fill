@@ -11,7 +11,6 @@ public class Solution
     private static readonly int[] DOWN = { -1, 0 };
     private static readonly int[] LEFT = { 0, -1 };
     private static readonly int[] RIGHT = { 0, 1 };
-
     private static readonly int[][] MOVES = { UP, DOWN, LEFT, RIGHT };
 
     private int rows;
@@ -38,7 +37,6 @@ public class Solution
 
         while (queueColor.Count > 0)
         {
-
             ++step;
             int pointsInCurrentStep = queueColor.Count;
 
